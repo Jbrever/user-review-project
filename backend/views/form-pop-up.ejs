@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/frontend/css/form-pop-up.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="main-container">
+        <h1 class="title"><span>add r</span>Eview</h1>
+        <div class="update-form">
+            <form action="" method="post" class="form-container">
+                <table>
+                    <tr>
+                        <td colspan="3">
+                            <div class="form-heading">Name:</div>
+                            <label for=""><input autocomplete="off" class="one-col form-inp" type="text"
+                                 name="name" placeholder="eg: John Phillip"></label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            <div class="form-heading">Image Link:</div>
+                            <label for=""><input autocomplete="off" class="one-col form-inp" type="text"
+                                   name="image" placeholder="eg: https://example.com/person3.jpg"></label>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <div class="form-heading">Profession:</div>
+                            <label for=""><input autocomplete="off" class="two-col first form-inp" type="text"
+                                  name="profession"  placeholder="eg: UX Designer"></label>
+                        </td>
+
+                        <td>
+                            <div class="form-heading">Age:</div>
+                            <label for=""><input autocomplete="off" class="two-col second form-inp" type="number"
+                                  name="age"  placeholder="eg: 23"></label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            <div class="form-heading">About you:</div>
+                            <label for=""><input autocomplete="off" class="one-col form-inp" type="text"
+                                 name="intro"   placeholder="eg: Hi, i'm xyz , I'm dedicated to helping ...."></label>
+                        </td>
+                    </tr>
+                </table>
+
+                <div class="btns">
+                    <button class="update-btn form-btn" type="submit">update</button>
+                    <a href="/reviews" class="cancel-btn form-btn">cancel</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
